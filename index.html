@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+    <head>
+      <meta charset="utf-8">
+      <title>Zeadith - My interests</title>
+      <!-- <link href='https://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'> -->
+      <link href='https://fonts.googleapis.com/css?family=Oswald:300,400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+      <link href='stylesheets/style.css' rel='stylesheet' type='text/css'>
+      <meta name="viewport" content="width=device-width">
+    </head>
+    <body>
+        <header id='top' class = 'page-header'>
+            <div class='header-title'>
+                <h1>My interests</h1>
+            </div>
+            <nav class ='page-nav' >
+                <ul class ='navigation-menu'>
+                    <li><a href="#me">About me</a></li>
+                    <li><a href="#books">Books</a></li>
+                    <li><a href="#web">Web-dev</a></li>
+                    <li><a href="#music">Music</a></li>
+                    <li><a href="#food">Food</a></li>
+                    <li><a href="#sport">Sport</a></li>
+                    <li><a href="#travel">Travelling</a></li>
+                </ul>
+            </nav>
+            <div class ='introduction'><p>Hi, this is a small project showcasing my hobbies and  skills as an aspiring front end developer. I made this page to exercise positioning images and text over them. I use jQuery for scrolling to next image.</p>
+            </div>
+        </header>
+        <main>
+            <!--tried base64encoding for images but loaded slowly so naaah-->
+            <section class = 'lead' id='me'>
+                <div class = 'lead-image'><img src="img/me.jpg" alt='yay it is me!'>
+                    <div class = 'lead-description'> 
+                        <h2>Kasia</h2>
+                        <p>Hi, I am an aspiring front end developer. I made this project to show you my interests.</p><p>This is me in the Technical Museum in Prague, yay!<!--photo by Daniel Fürtbauer (daniel.eugendorf@gmx.at)--></p>
+                    </div>
+                    <div class='next'>
+                        <a href="#books">next</a>
+                    </div>
+                </div>
+            </section>
+            <section class = 'lead' id='books'>
+                <div class = 'lead-image'><img src="img/books.jpg" alt='book reading' title'Source: picjumbo.com'>
+                    <div class = 'lead-description'> 
+                        <h2>Avid reader</h2>
+                        <p>I enjoy reading detective novels, particularly from Scandinavia. One of my favourite authors is Jo Nesbø, who wrote a series about  a norwegian detective from Oslo, Harry Hole.</p>
+                    </div>
+                    <div class='next'>
+                        <a href="#web">next</a>
+                    </div>
+                </div>
+            </section>
+            <section class = 'lead' id='web'>
+                <div class = 'lead-image'><img src="img/computer.jpg" alt='a computer on the desk' title='Source: negativespace.co'>
+                    <div class = 'lead-description'> 
+                        <h2>Web</h2>
+                        <p>I have a passion for web development and I would love to work as a front-end developer. Building a website is like solving a puzzle or playing with Lego blocks for me, another two things I greatly enjoy.</p>
+                    </div>
+                    <div class='next'>
+                        <a href="#music">next</a>
+                    </div>
+                </div>
+            </section>
+            <section class = 'lead' id='music'>
+                <div class = 'lead-image'><img src="img/concert.jpg" alt='A concert crowd' title'Source: picjumbo.com'>
+                    <div class = 'lead-description'> 
+                        <h2>Music</h2>
+                        <p>Concerts are awesome! I am ready to go to great lengths to hear my favourite musician perform live. A few years ago I flew to London to see Jamie Cullum's concert in Kew Gardens and it was totally worth it!</p>
+                    </div>
+                    <div class='next'>
+                        <a href="#food">next</a>
+                    </div>
+                </div>
+            </section>
+            <section class = 'lead' id='food'>
+                <div class = 'lead-image'><img src="img/cookies.jpg" alt='gingerbread cookies' title'Source: picjumbo.com'>
+                    <div class = 'lead-description'> 
+                        <h2>Om nom nom</h2>
+                        <p>I am a declared foodie. I love to discover new places to eat. Most often I choose vietnamese or italian cuisine, but I'm open to flavour experimentation.</p>
+                        <p>Every year for Christmas together with my sister I bake tons of gingerbread cookies and decorating them with icing is the best part!</p>
+                    </div>
+                    <div class='next'>
+                        <a href="#sport">next</a>
+                    </div>
+                </div>
+            </section>
+            <section class = 'lead' id='sport'>
+                <div class = 'lead-image'><img src="img/snooker.jpg" alt='Snooker table' title='Source: pixabay.com'>
+                    <div class = 'lead-description'> 
+                        <h2>Snooker</h2>
+                        <p>A sport that requires skill, concentration and thinking ahead. For me it is superexciting to watch. I always root for Neil Robertson.</p>
+                    </div>
+                    <div class='next'>
+                        <a href="#travel">next</a>
+                    </div>
+                </div>
+            </section>
+            <section class = 'lead' id='travel'>
+                <div class = 'lead-image'><img src="img/prague.jpg" alt='Prague astronomical clock' title'Source: picjumbo.com'>
+                    <div class = 'lead-description'> 
+                        <h2>Discovering the world</h2>
+                        <p>My greatest passion is travelling. Seeing new places, meeting new people, trying local dishes and learning about tradidtions is what this is all about for me.</p>
+                    </div>
+                    <div class='next'>
+                        <a href="#top">top</a>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+        <footer class ='page-footer'>
+            <nav class='page-nav'>
+                <ul class ='navigation-menu'>
+                    <li><a href="#me">About me</a></li>
+                    <li><a href="#books">Books</a></li>
+                    <li><a href="#web">Web-dev</a></li>
+                    <li><a href="#music">Music</a></li>
+                    <li><a href="#food">Food</a></li>
+                    <li><a href="#sport">Sport</a></li>
+                    <li><a href="#travel">Travelling</a></li>
+                </ul>
+            </nav>
+            <div class = 'footer-title'>
+                <p>&copy <a href="https://zeadith.github.io">Zeadith</a></p>
+            </div>
+        </footer>
+        <script type="text/javascript" src='https://code.jquery.com/jquery-2.2.1.js'></script>
+        <script type="text/javascript" src='js/main.js'></script>
+    </body>
+</html>
